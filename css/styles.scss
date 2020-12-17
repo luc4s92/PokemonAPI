@@ -8,11 +8,11 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-  }
+}
 
 *, *:before, *:after {
     box-sizing: inherit;
-  }
+}
 
 body{
     font-family: 'Kumbh Sans', sans-serif;
@@ -48,16 +48,18 @@ body{
         border-bottom: 1px solid rgba(153, 153, 153, 0.342);
 
         &-img{
+            width: 200px;
+            height: 200px;
             border: 5px solid #fff;
             border-radius: 50%;
-            margin-top: calc(-48px - 5px);
+            margin-top: calc(-100px - 5px);
             background: #fff;
         }
 
         &-title{
             font-size: 1.8rem;
             margin-top: 2rem;
-
+            text-transform: capitalize;
             span{
                 color: var(--dark-gray);
                 font-weight: 400;
@@ -85,9 +87,9 @@ body{
                 margin-bottom: 0;
             }
             p{
-               margin-top: 0.2rem;
-               letter-spacing: 1px;
-               color: rgba(51, 51, 51, 0.582);
+                margin-top: 0.2rem;
+                letter-spacing: 1px;
+                color: rgba(51, 51, 51, 0.582);
             }
         }
     }

@@ -66,15 +66,18 @@ body {
 }
 
 .card-body-img {
+  width: 200px;
+  height: 200px;
   border: 5px solid #fff;
   border-radius: 50%;
-  margin-top: calc(-48px - 5px);
+  margin-top: calc(-100px - 5px);
   background: #fff;
 }
 
 .card-body-title {
   font-size: 1.8rem;
   margin-top: 2rem;
+  text-transform: capitalize;
 }
 
 .card-body-title span {
